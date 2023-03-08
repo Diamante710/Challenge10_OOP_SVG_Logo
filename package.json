@@ -1,0 +1,26 @@
+{
+  "name": "challenge10_oop_svg_logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diamante710/Challenge10_OOP_SVG_Logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Diamante710/Challenge10_OOP_SVG_Logo/issues"
+  },
+  "homepage": "https://github.com/Diamante710/Challenge10_OOP_SVG_Logo#readme"
+}
