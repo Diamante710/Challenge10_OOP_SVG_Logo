@@ -47,7 +47,6 @@ function start() {
             fs.writeFile('logo.svg', newShape.render(), (err) =>
             err ? console.log(err) : console.log('Successfully created logo.svg file!')
             )
-            .catch((error)=> console.log(error))
         },
             )};
 
