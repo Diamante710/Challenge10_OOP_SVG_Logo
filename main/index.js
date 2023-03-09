@@ -43,12 +43,12 @@ function start() {
                 case "Square":
                     newShape = new Square(shape, color, text, textColor)
             }
-        },
-
+            
             fs.writeFile('logo.svg', newShape.render(), (err) =>
-                err ? console.log(err) : console.log('Successfully created logo.svg file!')
+            err ? console.log(err) : console.log('Successfully created logo.svg file!')
             )
             .catch((error)=> console.log(error))
-        )};
+        },
+            )};
 
 start();
