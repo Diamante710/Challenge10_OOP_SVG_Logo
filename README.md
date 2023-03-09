@@ -2,23 +2,23 @@
 
 ## Table of Contents
 * [Task](#Task)
-* User Story
-* Installation & Usage
-* Testing
-* Screenshot & Demo Link
+* [User Story](#User-Story)
+* [Installation & Usage](#installation-&-usage)
+* [Testing](#Testing)
+* [Screenshot & Demo Link](#screenshot-&-demo-link)
 
 ## <a name="Task"></a> Task
 
 This application is designed to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
-### User Story
+### <a name="User Story"></a> User Story
 
 ```md
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
 ```
-## Installation & Usage
+## <a name="Installation & Usage"></a> Installation & Usage
 
 To install, clone the repository locally in VS Code. Proceed to open an integrated terminal in the root directory and type:
 ```md
@@ -29,7 +29,7 @@ To use this application, within the integrated terminal type the command below. 
 node index.js
 ```
 
-## Testing
+## <a name="Testing"></a> Testing
 
 To test the application, enter the root directory through an integrated terminal and type:
 ```md
@@ -37,4 +37,4 @@ npm test
 ```
 Test results will display in the command line.
 
-## Screenshot & Demo Link
+## <a name="Screenshot & Demo Link"></a> Screenshot & Demo Link
