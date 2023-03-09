@@ -4,9 +4,9 @@
 
 * [Task](#Task)
 * [User Story](#User-Story)
-* [Installation & Usage](#installation-&-usage)
+* [Installation & Usage](#Installation-&-Usage)
 * [Testing](#Testing)
-* [Screenshot & Demo Link](#screenshot-&-demo-link)
+* [Screenshot & Demo Link](#Screenshot-&-Demo-Link)
 
 ### <a name="Task"></a>Task
 
