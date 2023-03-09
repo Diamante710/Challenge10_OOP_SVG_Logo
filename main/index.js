@@ -4,7 +4,6 @@ const fs = require('fs');
 
 
 function start() {
-    console.log("error")
      inquirer
         .prompt([
             {

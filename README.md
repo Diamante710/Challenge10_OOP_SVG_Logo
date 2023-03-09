@@ -4,9 +4,11 @@
 
 * [Task](#Task)
 * [User Story](#User-Story)
-* [Installation & Usage](#Installation-&-Usage)
+* [Installation](#Installation)
+* [Usage](#Usage)
 * [Testing](#Testing)
-* [Screenshot & Demo Link](#Screenshot-&-Demo-Link)
+* [Screenshot](#Screenshot)
+* [Demo Link](#Demo-Link)
 
 ### <a name="Task"></a>Task
 
@@ -19,12 +21,15 @@ AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
 ```
-### <a name="Installation & Usage"></a>Installation & Usage
+### <a name="Installation"></a>Installation 
 
 To install, clone the repository locally in VS Code. Proceed to open an integrated terminal in the root directory and type:
 ```md
 npm i
 ```
+
+### <a name="Usage"></a>Usage
+
 To use this application, within the integrated terminal type the command below. Once entered the user will be prompted with four questions that will create a logo.svg file upon completion.
 ```md
 node index.js
@@ -38,4 +43,7 @@ npm test
 ```
 Test results will display in the command line.
 
-### <a name="Screenshot & Demo Link"></a>Screenshot & Demo Link
+### <a name="Screenshot"></a>Screenshot
+
+
+### <a name="Demo Link"></a>Demo Link

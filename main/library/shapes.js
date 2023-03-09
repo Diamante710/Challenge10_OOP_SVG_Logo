@@ -13,7 +13,7 @@ class Circle extends Shapes {
         super(shape, color, text, textColor)
     }
     render() {
-        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="75" r="20" fill="${this.color}"/><text x="150" y="125" font-size="60" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
+        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="150" r="40" fill="${this.color}"/><text x="150" y="125" font-size="30" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
     }
 }
 
@@ -22,7 +22,7 @@ class Triangle extends Shapes {
         super(shape, color, text, textColor)
     }
     render() {
-        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><polygon points="150, 18 244, 182 56, 182" fill="${this.color}"/><text x="150" y="125" font-size="60" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
+        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><polygon points="150, 18 244, 182 56, 182" fill="${this.color}"/><text x="150" y="125" font-size="30" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
     }
 }
 
@@ -31,7 +31,7 @@ class Square extends Shapes {
         super(shape, color, text, textColor)
     }
     render() {
-        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="30" height="30" fill="${this.color}"/><text x="150" y="125" font-size="60" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
+        return `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="30" height="30" fill="${this.color}"/><text x="150" y="125" font-size="30" text-anchor="middle" fill="${this.textColor}">${this.text}</text></svg>`
     }
 }
 
