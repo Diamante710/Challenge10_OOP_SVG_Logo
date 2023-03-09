@@ -1,34 +1,37 @@
 const inquirer = require('inquirer');
-const Shapes = require('./library/shapes');
+const {Circle, Triangle, Square} = require('./library/shapes');
 const fs = require('fs');
 
+
 function start() {
-    return inquirer
+    console.log("error")
+     inquirer
         .prompt([
             {
-                type: 'input',
                 name: 'text',
+                type: 'input',
                 message: 'Enter text for the logo. (Must not be more than 3 characters.)',
+                // validate: input => input.length > 3 ? "Please enter only up to three characters." : true
             },
             {
-                type: 'input',
                 name: 'color',
-                message: 'Enter a text color.',
-            },
-            {
-                type: 'list',
-                name: 'shape',
-                message: 'Select a shape for the logo.',
-                choices: ["Circle", "Square", "Triangle"],
-            },
-            {
                 type: 'input',
-                name: 'textColor',
                 message: 'Enter a shape color.',
+            },
+            {
+                name: 'shape',
+                type: 'list',
+                message: 'Select a shape for the logo.',
+                choices: ["Circle", "Triangle", "Square"],
+            },
+            {
+                name: 'textColor',
+                type: 'input',
+                message: 'Enter a text color.',
             },
         ])
 
-        .then(({ shape, color, text, textColor }) => {
+        .then (({ shape, color, text, textColor }) => {
             let newShape
             switch (shape) {
                 case "Circle":
@@ -42,9 +45,10 @@ function start() {
             }
         },
 
-fs.writeFile('logo.svg', newShape.render(), (err) =>
-            err ? console.log(err) : console.log('Successfully created logo.svg file!')
-        ))
-}
+            fs.writeFile('logo.svg', newShape.render(), (err) =>
+                err ? console.log(err) : console.log('Successfully created logo.svg file!')
+            )
+            .catch((error)=> console.log(error))
+        )};
 
 start();
